@@ -5,4 +5,4 @@ from rest_framework import serializers
 class YadaFpSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = YadaFp
-        fields = ['id', 'name', 'address', 'phone', 'service', 'text', 'date', 'signName', 'signPhone', 'signDate']
+        fields = ['id', 'name', 'phone']
